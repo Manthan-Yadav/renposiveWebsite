@@ -27,6 +27,7 @@ header .cfoot p {
   font-size: 0.9rem;
 }
 header .cfoot button {
+  width: -moz-fit-content;
   width: fit-content;
   padding: 6px 5px;
   border-radius: 0.5rem;
@@ -356,7 +357,8 @@ main .sec9-10 .sec10 .card p {
 }
 main .sec9-10 .sec10 .card img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main .sec9-10 .sec10 .card .connect {
   display: flex;
@@ -621,4 +623,4 @@ main footer p {
   main footer p {
     font-size: 1.5rem;
   }
-}
+}/*# sourceMappingURL=index.css.map */
